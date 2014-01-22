@@ -4,6 +4,9 @@
 # view AndroidManifest.xml #generated:25
 -keep class edu.sinica.testee.OtherActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:26
+-keep class edu.sinica.testee.RandomService { <init>(...); }
+
 # onClick res/layout/activity_main.xml #generated:17
 -keepclassmembers class * { *** doButton1Click(...); }
 
